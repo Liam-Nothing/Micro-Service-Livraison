@@ -1,0 +1,33 @@
+# Node.js
+# Ignore node_modules for backend and frontend
+backend/node_modules
+frontend/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore dotenv files
+backend/.env
+
+# Ignore build output
+frontend/build
+
+# Ignore TypeScript cache and build files (if applicable)
+backend/dist
+frontend/dist
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# Ignore IDE config files
+.vscode/
+.idea/
+
+# Ignore package lock files
+frontend/package-lock.json
+backend/package-lock.json
